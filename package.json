@@ -1,0 +1,26 @@
+{
+  "name": "faunadb-poc",
+  "version": "1.0.0",
+  "description": "Projeto de estudos - FSM - DevPleno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joirneto/faunadb-poc.git"
+  },
+  "keywords": [],
+  "author": "Joir Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joirneto/faunadb-poc/issues"
+  },
+  "homepage": "https://github.com/joirneto/faunadb-poc#readme",
+  "dependencies": {
+    "faunadb": "^4.8.0",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
