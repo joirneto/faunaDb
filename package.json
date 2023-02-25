@@ -4,7 +4,9 @@
   "description": "Projeto de estudos - FSM - DevPleno",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,17 @@
   },
   "homepage": "https://github.com/joirneto/faunadb-poc#readme",
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.9",
+    "@mui/material": "^5.11.10",
+    "@mui/x-data-grid": "^5.17.25",
+    "dotenv": "^16.0.3",
     "faunadb": "^4.8.0",
+    "formik": "^2.2.9",
     "next": "^13.1.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "swr": "^0.5.5"
   }
 }
